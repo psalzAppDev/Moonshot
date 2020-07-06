@@ -18,6 +18,7 @@
 		D0E759B424B2568500AC7E62 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E759B324B2568500AC7E62 /* Astronaut.swift */; };
 		D0E759B624B256AB00AC7E62 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E759B524B256AB00AC7E62 /* Bundle+Decodable.swift */; };
 		D0E759B824B32D5000AC7E62 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E759B724B32D5000AC7E62 /* Mission.swift */; };
+		D0E759BA24B3334300AC7E62 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E759B924B3334300AC7E62 /* MissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D0E759B324B2568500AC7E62 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		D0E759B524B256AB00AC7E62 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
 		D0E759B724B32D5000AC7E62 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		D0E759B924B3334300AC7E62 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D0E7599B24B21B5600AC7E62 /* AppDelegate.swift */,
 				D0E7599D24B21B5600AC7E62 /* SceneDelegate.swift */,
 				D0E7599F24B21B5600AC7E62 /* ContentView.swift */,
+				D0E759B924B3334300AC7E62 /* MissionView.swift */,
 				D0E759B724B32D5000AC7E62 /* Mission.swift */,
 				D0E759B324B2568500AC7E62 /* Astronaut.swift */,
 				D0E759B524B256AB00AC7E62 /* Bundle+Decodable.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E759BA24B3334300AC7E62 /* MissionView.swift in Sources */,
 				D0E759B824B32D5000AC7E62 /* Mission.swift in Sources */,
 				D0E7599C24B21B5600AC7E62 /* AppDelegate.swift in Sources */,
 				D0E759B624B256AB00AC7E62 /* Bundle+Decodable.swift in Sources */,
