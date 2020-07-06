@@ -38,7 +38,9 @@ struct MissionView: View {
                                 .resizable()
                                 .frame(width: 83, height: 60)
                                 .clipShape(Capsule())
-                                .overlay(Capsule().stroke(Color.primary, lineWidth: 1))
+                                .overlay(crewMember.role == "Commander"
+                                    ? Capsule().stroke(Color.blue, lineWidth: 3)
+                                    : Capsule().stroke(Color.primary, lineWidth: 1))
                             
                             VStack(alignment: .leading) {
                                 Text(crewMember.astronaut.name)
